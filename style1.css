@@ -353,7 +353,19 @@ figcaption p {
     font-size: 1rem;
     font-weight: 300;
   }
-
+  #cap3 {
+    background: rgba( 0, 15, 10, 0.65 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 280px;
+    z-index: 999;
+    bottom: 40px;
+    left: 40px;
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: 300;
+  }
   #cap4 {
     border: none;
     width: 500px;
@@ -463,6 +475,92 @@ figcaption p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+  #cap12 {
+    background: rgba( 0, 15, 10, 0.65 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 300px;
+    z-index: 999;
+    bottom: 40px;
+    right: 40px;
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  #cap13 {
+    border: none;
+    width: 500px;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 15px;
+    font-weight: 100;
+    font-family: 'Poppins', monospace;
+    background: none;
+    position: absolute;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px black;
+    text-align: center;
+  }
+  #pcap{
+    text-align: center;
+  }
+  #cap14 {
+    background: rgba( 0, 15, 10, 0.65 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 280px;
+    z-index: 999;
+    bottom: 40px;
+    left: 40px;
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  #cap15 {
+    background: rgba( 0, 15, 10, 0.65 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 300px;
+    z-index: 999;
+    bottom: 40px;
+    right: 40px;
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  #cap16 {
+    background: rgba( 0, 15, 10, 0.65 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 300px;
+    z-index: 999;
+    bottom: 40px;
+    left: 40px;
+    padding: 7px 15px;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  #cap17 {
+    background: none;
+    box-shadow: 0 8px 32px 0 rgba( 31, 70, 31, 0.27 );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 480px;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 5px 15px;
+    font-size: 1rem;
+    font-weight: 300;
+    text-shadow: 1px 1px black;
   }
 }
 

@@ -210,7 +210,7 @@ figcaption  {
   font-size: 2rem;
 
 }
-figcaption p {
+figcaption {
   text-align: justify;
   padding-left: 10px;
   padding-right: 10px;
@@ -248,7 +248,7 @@ figcaption p {
   color: black;
   font-size: 1.3rem;
   background: black;
-  padding: 10px 15px;
+  padding: 10px 55px;
   z-index: 1000;
   transition: 2s ease-in-out;
   border-radius: 15px;
@@ -259,7 +259,7 @@ figcaption p {
   /*color: #efcb68;*/
   color: white;
   background: black;
-  padding: 10px;
+  padding: 10px 40px;
   z-index: 1000;
 
 }
@@ -269,8 +269,272 @@ figcaption p {
   max-width: 100px;
   height: auto;
 }
-/*----------------------------------*/
+/*-------------maiorque720---------------------*/
+@media (min-height:720px) {
 
+#figfinal {
+  z-index: 10000;
+  text-shadow: 1px 1px black;
+}
+#titlecap {
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+}
+#cap0 {
+  background: rgba( 0, 15, 10, 0.65 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  width: 280px;
+  z-index: 999;
+  bottom: 40px;
+  right: 40px;
+  padding: 25px 25px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+#cap1 {
+  background: rgba( 0, 15, 10, 0.65 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  width: 280px;
+  z-index: 999;
+  bottom: 40px;
+  left: 40px;
+  padding: 15px 25px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+#cap2 {
+  background: rgba( 0, 15, 10, 0.65 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  width: 400px;
+  z-index: 999;
+  bottom: 40px;
+  right: 40px;
+  padding: 15px 25px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+#cap3 {
+  background: rgba( 0, 15, 10, 0.65 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  width: 280px;
+  z-index: 999;
+  bottom: 40px;
+  left: 40px;
+  padding: 15px 25px;
+  font-size: 1rem;
+  font-weight: 300;
+  font-size: 1.2rem;
+
+}
+#cap4 {
+  border: none;
+  width: 700px;
+  z-index: 999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 15px 25px;
+  font-weight: 100;
+  font-family: 'Poppins', monospace;
+  background: none;
+  position: absolute;
+  text-align: center;
+  font-size: 3rem;
+  text-shadow: 1px 1px blue;
+
+}
+#cap5 {
+  background: rgba( 0, 15, 10, 0.65 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  width: 320px;
+  z-index: 999;
+  bottom: 40px;
+  left: 40px;
+  padding: 15px 25px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+#cap6 {
+  background: rgba( 0, 15, 10, 0.65 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  width: 300px;
+  z-index: 999;
+  bottom: 40px;
+  right: 40px;
+  padding: 15px 25px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+#cap7 {
+  border: none;
+  width: 700px;
+  z-index: 999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 15px 25px;
+  font-weight: 100;
+  font-family: 'Poppins', monospace;
+  background: none;
+  position: absolute;
+  text-align: center;
+  font-size: 3rem;
+  text-shadow: 1px 1px black;
+}
+#cap8 {
+  background: rgba( 0, 15, 10, 0.65 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  width: 320px;
+  z-index: 999;
+  bottom: 40px;
+  left: 40px;
+  padding: 15px 25px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+#cap9 {
+  background: rgba( 0, 15, 10, 0.65 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  width: 320px;
+  z-index: 999;
+  bottom: 40px;
+  right: 60px;
+  padding: 15px 25px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+#cap10 {
+  background: rgba( 0, 10, 10, 0.65 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 31, 0.37 );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  width: 320px;
+  z-index: 999;
+  bottom: 40px;
+  left: 40px;
+  padding: 15px 25px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+#cap11 {
+  background: rgba( 0, 15, 10, 0.65 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  width: 400px;
+  z-index: 999;
+  padding: 15px;
+  font-size: 1rem;
+  font-weight: 300;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+#cap12 {
+  background: rgba( 0, 15, 10, 0.65 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  width: 300px;
+  z-index: 999;
+  bottom: 40px;
+  right: 60px;
+  padding: 15px 25px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+#cap13 {
+  border: none;
+  width: 500px;
+  z-index: 999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 15px;
+  font-weight: 100;
+  font-family: 'Poppins', monospace;
+  background: none;
+  position: absolute;
+  font-size: 2.5rem;
+  text-shadow: 1px 1px black;
+  text-align: center;
+}
+#pcap{
+  text-align: center;
+}
+#cap14 {
+  background: rgba( 0, 15, 10, 0.65 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  width: 320px;
+  z-index: 999;
+  bottom: 40px;
+  left: 40px;
+  padding: 15px 25px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+#cap15 {
+  background: rgba( 0, 15, 10, 0.65 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  width: 320px;
+  z-index: 999;
+  bottom: 40px;
+  right: 60px;
+  padding: 15px 25px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+#cap16 {
+  background: rgba( 0, 15, 10, 0.65 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  width: 320px;
+  z-index: 999;
+  bottom: 40px;
+  left: 40px;
+  padding: 15px 25px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+#cap17 {
+  background: none;
+  box-shadow: 0 8px 32px 0 rgba( 31, 70, 31, 0.27 );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  width: 480px;
+  z-index: 999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 5px 15px;
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-shadow: 1px 1px black;
+}
+}
 /*****************hg720**********************/
 @media (max-height:720px){
   .central {
@@ -313,6 +577,7 @@ figcaption p {
   }
   #titlecap {
     font-weight: 500;
+    text-align: center;
   }
   #cap0 {
     background: rgba( 0, 15, 10, 0.65 );
@@ -380,6 +645,7 @@ figcaption p {
     position: absolute;
     font-size: 2rem;
     text-shadow: 1px 1px black;
+    text-align: center;
 
   }
   #cap5 {
@@ -410,17 +676,18 @@ figcaption p {
   }
   #cap7 {
     border: none;
-    width: 500px;
+    width: 700px;
     z-index: 999;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    padding: 15px;
+    padding: 15px 25px;
     font-weight: 100;
     font-family: 'Poppins', monospace;
     background: none;
     position: absolute;
-    font-size: 2rem;
+    text-align: center;
+    font-size: 3rem;
     text-shadow: 1px 1px black;
   }
   #cap8 {
@@ -475,6 +742,7 @@ figcaption p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    position: absolute;
   }
   #cap12 {
     background: rgba( 0, 15, 10, 0.65 );
@@ -484,7 +752,7 @@ figcaption p {
     width: 300px;
     z-index: 999;
     bottom: 40px;
-    right: 40px;
+    right: 60px;
     padding: 15px;
     font-size: 1rem;
     font-weight: 300;
